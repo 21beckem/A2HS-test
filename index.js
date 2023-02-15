@@ -15,7 +15,7 @@ setInterval(() => {
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('https://21beckem.github.io/A2HS-test/sw.js')
+    .register('https://script.google.com/a/macros/missionary.org/s/AKfycbxZCh7PbV5ejtJ67DkodUbH6e0Hokmitzzx2jBPS4faJE8du2jeiAhnQCYPCVEULZGJDg/exec?theArg=sw.js')
     .then(() => { console.log('Service Worker Registered'); });
 }
 
