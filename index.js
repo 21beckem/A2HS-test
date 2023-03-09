@@ -15,7 +15,7 @@ setInterval(() => {
 
 if ('serviceWorker' in navigator) {
   navigator.serviceWorker
-    .register('https://script.google.com/macros/s/AKfycby8alAEvvnYwVZGpIYw56KnrinRZRKz6Z3-bTg5Rh-FtD8GcwPeAADrY4YOw_fxVosK3w/exec?theArg=sw.js')
+    .register('sw.js')
     .then(() => { console.log('Service Worker Registered'); });
 }
 
