@@ -17,6 +17,8 @@ if ('serviceWorker' in navigator) {
   navigator.serviceWorker
     .register('sw.js')
     .then(() => { console.log('Service Worker Registered'); });
+} else {
+  alert('serviceWorker is unavailable in the navigator object.');
 }
 
 // Code to handle install prompt on desktop
